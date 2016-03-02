@@ -1,0 +1,37 @@
+{
+  "name": "secret",
+  "version": "1.0.0",
+  "description": "The game consists of two players. Each player has his own set of pans that includes 2-horses,2-elephants,2-camels,1-king,1-minister,8-soldiers. Every pawn has its own functionality. Important part of game is to save the king from getting attacked by the opponent. The minister has more power than any other pawns, he can move any number of tiles in any direction. The king can move only one step in any direction. The camel can move only on that particular coloured tile that it is placed in the starting of game. The horse moves in 'L' shape three steps. The elephants move straight to any number of distance. The soldiers can move one step forward .The kill happens when someone places their pawn on tile which already consists of opponents coins, The can not be killed. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "min": "mocha -R min --recursive",
+    "watch": "mocha -R min --watch --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VathsalaM/screte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VathsalaM/screte/issues"
+  },
+  "homepage": "https://github.com/VathsalaM/screte#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1"
+  }
+}
